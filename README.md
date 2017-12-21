@@ -21,7 +21,7 @@ docker create \
   --net=host \
   -e DISPLAY \
   -v $XAUTHORITY:/root/.Xauthority \
-  -v /tmp/.X11-unix \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
   -v $HOME/.config/google-musicmanager:/config \
   -v </path/to/music>:/music \
   iamjamestl/google-musicmanager
