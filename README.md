@@ -1,10 +1,9 @@
 # Google Play Music Manager for Docker
 
-The [Google Play Music
-Manager](https://support.google.com/googleplaymusic/answer/1075570?hl=en) is
-becoming increasingly hard to run, depending on deprecated libraries with known
-security vulnerabilities, like QtWebKit.  This Docker image is inteded to keep
-Music Manager alive in a stable and semi-isolated environment long after
+The [Google Play Music Manager](https://support.google.com/googleplaymusic/answer/1075570?hl=en)
+is becoming increasingly hard to run, depending on deprecated libraries with
+known security vulnerabilities, like QtWebKit.  This Docker image is inteded to
+keep Music Manager alive in a stable and semi-isolated environment long after
 distros have removed its dependencies.
 
 This image is loosely modeled after
