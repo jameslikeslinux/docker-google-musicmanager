@@ -17,7 +17,6 @@ RUN apt-get update \
  && wget https://dl.google.com/linux/direct/google-musicmanager-beta_current_amd64.deb \
  && apt install -y ./google-musicmanager-beta_current_amd64.deb \
  && rm -f google-musicmanager-beta_current_amd64.deb \
- && apt-get --allow-unauthenticated upgrade google-musicmanager-beta \
  && apt-get remove --purge --auto-remove -y wget \
  && rm -rf /var/cache/apt/lists/*
 
